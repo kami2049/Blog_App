@@ -3,8 +3,10 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
+app.use(express.static('./public'));
+
 app.get('/portfolio', function (req, res) {
-  res.send('Hello World!');
+  res.render('portfolio');
 });
 
 app.get('/blog', function (req, res) {
