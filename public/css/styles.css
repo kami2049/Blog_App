@@ -1,3 +1,19 @@
-body {
-	background-color: orange;
+header {
+	background-color: lightgrey;
+	height: 75px;
+	padding-top: 5px;
+	text-align: center;
+
+}
+
+.blog {
+	display: inline-block;
+	width: 600px;
+}
+
+footer {
+	background-color: lightgrey;
+	height: 50px;
+	padding-top: 5px;
+	text-align: center;
 }
